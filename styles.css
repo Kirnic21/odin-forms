@@ -2,15 +2,9 @@
     font-family: odin-font;
     src: url(fonts/Norse-Bold.otf);
   }
-  body{
-    display: flex;
-    flex-direction: column;
-  }
-  .background-container
-  {
-    display:flex;
-    justify-content: start;
-  }
+body{
+display: flex;
+}
   .background-image{
     height: 100%;
     width: 51%;
@@ -41,12 +35,23 @@
     color: aquamarine;
     font-size: 90px;
   }
-  .container
-  {
-    display:flex;
-    justify-content: start;
-  }
   .forms-container{
-    display: flex;
-    ;
+    background-color: aquamarine;
+  }
+  .header{
+    padding: 60px;
+  }
+  .forms{
+    background-color: bisque;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .input{
+    border-radius: 10px;
+    height: 25px;
+  }
+  .input:focus{
+
+    border-color: 5px red;
+    box-shadow: 5px 5px blue;
   }
