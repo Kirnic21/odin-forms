@@ -1,3 +1,4 @@
+
 const passwordField=document.getElementById("pwd")
 const submitButton = document.querySelector("#submitbutton")
 submitButton.addEventListener("click",function(){
@@ -7,5 +8,8 @@ if(password!=cpassword)
 {
     alert("password doesnt match! try again")
     passwordField.setCustomValidity("Invalid field.");
+}
+else{
+    passwordField.setCustomValidity('')
 }
 });
